@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Builder</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <form action="" id="form">
+
+    <div>
+      <label for="name">Name</label> <br>
+      <input type="text" id="name" placeholder="Enter Name"required>
+    </div>
+    <br>
+   
+    <div>
+      <label for="linkedinurl">Linkedin</label> <br>
+      <input type="text" id="linkedinurl" name="linkedin" placeholder="Enter Linkedin Url">
+    </div>
+    <div>
+      <label for="githuburl">Github</label> <br>
+      <input type="text" id="githuburl" name="github" placeholder="Enter Github Url">
+
+    </div>
+    <div>
+      <label for="twitterurl">Twitter</label> <br>
+      <input type="text" id="twitterurl" name="github" placeholder="Enter Twitter Url">
+
+    </div>
+    <div>
+      <label for="instagramurl">Instagram</label> <br>
+      <input type="text" id="instagramurl" name="instagramurl" placeholder="Enter instagram Url">
+
+    </div>
+    <div>
+      <label for="abouturl">about yourself</label> <br>
+      
+      <input  type="text" id="abouturl" name="aboutus" placeholder="Enter About Yourself." required>
+
+    </div>
+
+    <div class="servicess">
+      <label for="services">Enter Your Domains like: web dev , app dev etc</label> <br>
+      <input type="text" id="domain1" name="services" placeholder="Enter 1st Domain" required> <br>
+      <input type="text" id="domain2" name="services" placeholder="Enter 2nd Domain" required> <br>
+      <input type="text" id="domain3" name="services" placeholder="Enter 3rd Domain" required> <br>
+      <input type="text" id="domain4" name="services" placeholder="Enter 4th Domain" required> <br>
+
+
+
+    </div>
+
+    <div >
+      <label for="skills">Your @Skills</label> <br>
+      <input type="text" name="skills" id="skill1" placeholder="Enter Skills" required>
+      <input type="text" name="skills" id="skill2" placeholder="Enter Skills" required>
+      <input type="text" name="skills" id="skill3" placeholder="Enter Skills" required>
+      <input type="text" name="skills" id="skill4" placeholder="Enter Skills" required>
+      <input type="text" name="skills" id="skill5" placeholder="Enter Skills" required>
+    </div>
+
+    <div>
+
+      <label for="experience">Your Experience</label> <br>
+      <input type="text" name="experience" id="company-input" placeholder="Enter Company name" >
+      <input type="text" name="experience" id="position-input" placeholder="Enter Your Position" >
+      <input type="text" name="experience" id="role-input" placeholder="Enter Role details" >
+    
+    </div>
+    <div>
+      <label for="">Enter Contact details</label> <br>
+      <input type="number" id="number-input" placeholder="Enter your number" required>
+      <input type="email" id="email-input" placeholder="Enter Your Email" required>
+      <input type="text" id="address-input" placeholder="Enter Address" required>
+    </div>
+
+ <br>
+    <button onclick="send();" type="submit">Submit</button>
+
+
+  </form>
+
+  <footer>
+
+    <div>
+
+      <p class="note"> 
+        Note: <br> Inclue "https://www." in the url Always. If not include it will not work Sometimes. <br>
+        if You not enter your domains it will show "Software Developer", "Web Designer", "Freelancer" by default for better experience . <br>
+        if you don't have experience then not fill experience details.
+      </p> <br>
+     
+
+    </div>
+  </footer>
+  
+
+
+
+
+
+  <script src="./main.js"></script>
+</body>
+</html>
